@@ -52,8 +52,9 @@ Available commands:
 1. E-Commerce Platform - https://github.com/yourusername/ecommerce
 2. Task Manager App - https://github.com/yourusername/task-manager
 3. Portfolio Website - https://yourwebsite.com
+4. Hostel Managent system - https://github.com/Roshantigga/java-hostel-management-system.git
 `,
-  contact: `📧 Email: <a href="mailto:your.email@example.com">your.email@example.com</a>`,
+  contact: `📧 Email: <a href="mailto:roshantigga0000@gmail.com">roshantigga0000@gmail.com</a>`,
   resume: `📄 <a href="resume.pdf" download>Download Resume</a>`,
   social: `
 🔗 Social Links:
