@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Roshan's Terminal Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="terminal" class="terminal" onclick="focusInput()">
+    <div class="terminal-header">
+      <div class="buttons">
+        <span class="btn red"></span>
+        <span class="btn yellow"></span>
+        <span class="btn green"></span>
+      </div>
+      <div class="title">Roshan's Portfolio Terminal</div>
+    </div>
+    <div id="output" class="terminal-output"></div>
+    <div class="terminal-input-line">
+      <span class="prompt">➜</span>
+      <span class="path">~/portfolio</span>
+      <span class="dollar">$</span>
+      <input id="input" type="text" autofocus onkeydown="handleInput(event)" />
+      <span class="cursor">█</span>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
