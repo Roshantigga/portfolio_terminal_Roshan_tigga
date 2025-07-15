@@ -1,3 +1,4 @@
+
 const output = document.getElementById('output');
 const input = document.getElementById('input');
 const root = document.documentElement;
@@ -52,7 +53,7 @@ Available commands:
 1. E-Commerce Platform - https://github.com/yourusername/ecommerce
 2. Task Manager App - https://github.com/yourusername/task-manager
 3. Portfolio Website - https://yourwebsite.com
-4. Hostel Managent system - https://github.com/Roshantigga/java-hostel-management-system.git
+4. Hostel Management System - https://github.com/Roshantigga/java-hostel-management-system.git
 `,
   contact: `📧 Email: <a href="mailto:roshantigga0000@gmail.com">roshantigga0000@gmail.com</a>`,
   resume: `📄 <a href="resume.pdf" download>Download Resume</a>`,
@@ -100,28 +101,6 @@ function focusInput() {
 }
 
 window.onload = () => {
-  fetch('banner.txt')
-    .then(response => response.text())
-    .then(banner => {
-      typeEffect(banner, () => {
-        const welcomeMsg = `👋 Welcome to Roshan Tigga’s Terminal Portfolio\nType "help" to see available commands.`;
-        typeEffect(welcomeMsg);
-      });
-    });
   setTheme('matrix');
 }
 
-function typeEffect(text, callback) {
-  let i = 0;
-  function type() {
-    if (i < text.length) {
-      appendOutput(text.charAt(i));
-      i++;
-      setTimeout(type, 5); // Typing speed
-    } else if (callback) {
-      appendOutput('\n');
-      callback();
-    }
-  }
-  type();
-}
