@@ -21,8 +21,8 @@ const themes = {
     '--cursor': '#ff00f7'
   },
   classic: {
-    '--background': '#f8f8f8',
-    '--text': '#000',
+    '--background': '#541ba3ff',
+    '--text': '#ff0000ff',
     '--prompt': '#0000ff',
     '--path': '#555',
     '--dollar': '#000',
@@ -44,9 +44,9 @@ Available commands:
 `,
   about: `
 👋 Hi! I'm Roshan Tigga.
-💻 Passionate Full Stack Developer.
-🚀 Loves building cool web apps.
-📍 Based in India.
+Tech-driven Computer Engineer with expertise in Python, C/C++, Java, SQL, and a good grasp of Object-Oriented Programming (OOPs). 
+Enthusiastic about exploring software development, cybersecurity, and
+ network simulation to create impactful and efficient solutions.
 `,
   projects: `
 📦 Projects:
@@ -56,11 +56,11 @@ Available commands:
 4. Hostel Management System - https://github.com/Roshantigga/java-hostel-management-system.git
 `,
   contact: `📧 Email: <a href="mailto:roshantigga0000@gmail.com">roshantigga0000@gmail.com</a>`,
-  resume: `📄 <a href="resume.pdf" download>Download Resume</a>`,
+  resume: `📄 <a href="https://drive.google.com/file/d/1bXUZhpxjw7DASVK69_zGMTsogjjRaTHx/view?usp=drive_link" download>Download Resume</a>`,
   social: `
 🔗 Social Links:
-- GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a>
-- LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a>
+- GitHub: <a href="https://github.com/Roshantigga" target="_blank">github.com/yourusername</a>
+- LinkedIn: <a href="https://www.linkedin.com/in/roshan-tigga-711701367/" target="_blank">linkedin.com/in/yourprofile</a>
 - Website: <a href="https://yourwebsite.com" target="_blank">yourwebsite.com</a>
 `,
 };
