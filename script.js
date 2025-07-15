@@ -99,7 +99,22 @@ function focusInput() {
   input.focus();
 }
 
+
 window.onload = () => {
-  appendOutput('Welcome to Roshan Tigga\'s Terminal Portfolio!\nType "help" to see available commands.');
+  const banner = `
+  ________  ________  ________  ___  ___  ________  ________           
+ |\\   __  \\|\\   __  \\|\\   ____\\|\\  \\|\\  \\|\\   __  \\|\\   ___  \\        
+ \\ \\  \\|\\  \\ \\  \\|\\  \\ \\  \\___|\\ \\  \\\\\\  \\ \\  \\|\\  \\ \\  \\\\ \\  \\       
+  \\ \\   _  _\\ \\  \\\\\\  \\ \\_____  \\ \\   __  \\ \\   __  \\ \\  \\\\ \\  \\      
+   \\ \\  \\\\  \\\\ \\  \\\\\\  \\|____|\\  \\ \\  \\ \\  \\ \\  \\ \\  \\ \\  \\\\ \\  \\     
+    \\ \\__\\\\ _\\\\ \\_______\\____\\_\\  \\ \\__\\ \\__\\ \\__\\ \\__\\ \\__\\\\ \\__\\    
+     \\|__|\\|__|\\|_______|\\_________\\|__|\\|__|\\|__|\\|__|\\|__| \\|__|    
+                        \\|_________|                                 
+
+  👋 Welcome to Roshan Tigga’s Terminal Portfolio
+  Type "help" to see available commands.
+  `;
+  appendOutput(banner);
   setTheme('matrix');
-};
+}
+
