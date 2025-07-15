@@ -99,27 +99,29 @@ function focusInput() {
   input.focus();
 }
 
-
 window.onload = () => {
-  const banner = `
-  
-
-              ________  ________  ________  ___  ___  ________  ________                  ___    
-             |\   __  \|\   __  \|\   ____\|\  \|\  \|\   __  \|\   ___  \               |\  \   
- ____________\ \  \|\  \ \  \|\  \ \  \___|\ \  \\\  \ \  \|\  \ \  \\ \  \  ____________\ \  \  
-|\____________\ \   _  _\ \  \\\  \ \_____  \ \   __  \ \   __  \ \  \\ \  \|\____________\ \  \ 
-\|____________|\ \  \\  \\ \  \\\  \|____|\  \ \  \ \  \ \  \ \  \ \  \\ \  \|____________|\/  /|
-                \ \__\\ _\\ \_______\____\_\  \ \__\ \__\ \__\ \__\ \__\\ \__\             /  // 
-                 \|__|\|__|\|_______|\_________\|__|\|__|\|__|\|__|\|__| \|__|            /_ //  
-                                    \|_________|                                         |__|/   
-                                                                                                 
-                                                                                                 
-
-
-  👋 Welcome to Roshan Tigga’s Terminal Portfolio
-  Type "help" to see available commands.
-  `;
-  appendOutput(banner);
+  fetch('banner.txt')
+    .then(response => response.text())
+    .then(banner => {
+      typeEffect(banner, () => {
+        const welcomeMsg = `👋 Welcome to Roshan Tigga’s Terminal Portfolio\nType "help" to see available commands.`;
+        typeEffect(welcomeMsg);
+      });
+    });
   setTheme('matrix');
 }
 
+function typeEffect(text, callback) {
+  let i = 0;
+  function type() {
+    if (i < text.length) {
+      appendOutput(text.charAt(i));
+      i++;
+      setTimeout(type, 5); // Typing speed
+    } else if (callback) {
+      appendOutput('\n');
+      callback();
+    }
+  }
+  type();
+}
