@@ -56,7 +56,7 @@ solving problems, learning new technologies, and creating efficient solutions wi
 4. Hostel Management System - https://github.com/Roshantigga/java-hostel-management-system.git
 `,
   contact: `📧 Email: <a href="mailto:roshantigga0000@gmail.com">roshantigga0000@gmail.com</a>`,
-  resume: `📄 <a href="https://drive.google.com/file/d/1jhFc0G_lJcZ85yTSCnOUxIMkR8W-Scb1/view?usp=sharing" target="_blank" download>Download Resume</a>`,
+  resume: `📄 <a href="https://drive.google.com/file/d/1j-8asAW-Z8evnJiS2Lbzg20oHEpWifUi/view?usp=drive_link" target="_blank" download>Download Resume</a>`,
   social: `
 🔗 Social Links:
 - GitHub: <a href="https://github.com/Roshantigga" target="_blank">github.com/yourusername</a>
