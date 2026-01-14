@@ -59,9 +59,9 @@ solving problems, learning new technologies, and creating efficient solutions wi
   resume: `📄 <a href="https://drive.google.com/file/d/1j-8asAW-Z8evnJiS2Lbzg20oHEpWifUi/view?usp=drive_link" target="_blank" download>Download Resume</a>`,
   social: `
 🔗 Social Links:
-- GitHub: <a href="https://github.com/Roshantigga" target="_blank">github.com/yourusername</a>
-- LinkedIn: <a href="https://www.linkedin.com/in/roshan-tigga-711701367/" target="_blank">linkedin.com/in/yourprofile</a>
-- Website: <a href="https://roshantigga.github.io/portfolio/" target="_blank">yourwebsite.com</a>
+- GitHub: <a href="https://github.com/Roshantigga" target="_blank">github</a>
+- LinkedIn: <a href="https://www.linkedin.com/in/roshan-tigga-711701367/" target="_blank">linkedin</a>
+- Website: <a href="https://roshantigga.github.io/portfolio/" target="_blank">website</a>
 `,
 };
 
