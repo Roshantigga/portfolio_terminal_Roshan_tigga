@@ -50,10 +50,10 @@ solving problems, learning new technologies, and creating efficient solutions wi
 `,
   projects: `
 📦 Projects:
-1. AI driven real time sign language recognition system - https://github.com/Roshantigga/AI-driven-real-time-sign-language-recognition-system
-2. Task Manager App - https://github.com/yourusername/task-manager
-3. Portfolio Website - https://yourwebsite.com
-4. Hostel Management System - https://github.com/Roshantigga/java-hostel-management-system.git
+1. AI driven real time sign language recognition system - <a href="https://github.com/Roshantigga/AI-driven-real-time-sign-language-recognition-system" target="_blank">here</a>
+2. Pong-style-retro-geme - <a href="https://github.com/yourusername/task-manager" target="_blank">here</a>
+3. Portfolio Website - <a href="https://roshantigga.github.io/portfolio/" target="_blank">here</a>
+4. Hostel Management System(focused SQL) - https://github.com/Roshantigga/java-hostel-management-system.git
 `,
   contact: `📧 Email: <a href="mailto:roshantigga0000@gmail.com">roshantigga0000@gmail.com</a>`,
   resume: `📄 <a href="https://drive.google.com/file/d/1j-8asAW-Z8evnJiS2Lbzg20oHEpWifUi/view?usp=drive_link" target="_blank" download>Download Resume</a>`,
