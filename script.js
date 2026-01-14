@@ -50,7 +50,7 @@ solving problems, learning new technologies, and creating efficient solutions wi
 `,
   projects: `
 📦 Projects:
-1. E-Commerce Platform - https://github.com/yourusername/ecommerce
+1. AI driven real time sign language recognition system - https://github.com/Roshantigga/AI-driven-real-time-sign-language-recognition-system
 2. Task Manager App - https://github.com/yourusername/task-manager
 3. Portfolio Website - https://yourwebsite.com
 4. Hostel Management System - https://github.com/Roshantigga/java-hostel-management-system.git
