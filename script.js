@@ -44,9 +44,9 @@ Available commands:
 `,
   about: `
 👋 Hi! I'm Roshan Tigga.
-Tech-driven Computer Engineer with expertise in Python, C/C++, Java, SQL, and a good grasp of Object-Oriented Programming (OOPs). 
-Enthusiastic about exploring software development, cybersecurity, and
- network simulation to create impactful and efficient solutions.
+Tech-driven Computer Engineering student with hands-on experience in Python, C/C++, SQL, and OOP prin-
+ciples. Skilled in building practical software projects, data-driven applications, and real-time systems. I enjoy
+solving problems, learning new technologies, and creating efficient solutions with real-world impact.
 `,
   projects: `
 📦 Projects:
@@ -56,12 +56,12 @@ Enthusiastic about exploring software development, cybersecurity, and
 4. Hostel Management System - https://github.com/Roshantigga/java-hostel-management-system.git
 `,
   contact: `📧 Email: <a href="mailto:roshantigga0000@gmail.com">roshantigga0000@gmail.com</a>`,
-  resume: `📄 <a href="https://drive.google.com/file/d/1bXUZhpxjw7DASVK69_zGMTsogjjRaTHx/view?usp=drive_link" download>Download Resume</a>`,
+  resume: `📄 <a href="https://drive.google.com/file/d/1jhFc0G_lJcZ85yTSCnOUxIMkR8W-Scb1/view?usp=sharing" download>Download Resume</a>`,
   social: `
 🔗 Social Links:
 - GitHub: <a href="https://github.com/Roshantigga" target="_blank">github.com/yourusername</a>
 - LinkedIn: <a href="https://www.linkedin.com/in/roshan-tigga-711701367/" target="_blank">linkedin.com/in/yourprofile</a>
-- Website: <a href="https://yourwebsite.com" target="_blank">yourwebsite.com</a>
+- Website: <a href="https://roshantigga.github.io/portfolio/" target="_blank">yourwebsite.com</a>
 `,
 };
 
